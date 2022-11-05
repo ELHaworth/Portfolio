@@ -196,7 +196,10 @@ svg {
 }
 
 .positives{
-  padding-left: 10rem;
+  justify-content: center;
+}
+.colour-ratio{
+  justify-self: center;
 }
 
 @media (max-width:55em){
@@ -204,9 +207,7 @@ svg {
     padding-left: .1rem;
   }
 
-  .colour-ratio{
-    justify-self: center;
-  }
+ 
 }
 
 .How-Might-We{
