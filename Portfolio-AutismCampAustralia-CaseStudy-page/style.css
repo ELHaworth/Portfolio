@@ -301,11 +301,15 @@ text-align: center;
   font-weight: var(--fw-bold);
   font-size: var(--fs-button);
   line-height: 1;
-  border: 0;
-  
+  border: 2;
+  border-color: var(--clr-neutral-100);
+color: var(--clr-neutral-100) !important;
+  background-color: var(--clr-accent-800);
   bottom: -auto;
   margin-top: .5rem;
 }
+
+
 
 
 .tag-801{
@@ -373,9 +377,9 @@ color: var(--clr-neutral-900);
 
 .button-800-inverted:hover,
 .button-800-inverted:focus-visible{
-background-color: #CABCBC;
+background-color: var(--clr-neutral-100);
 
-color: var(--clr-neutral-900);
+color: var(--clr-accent-800);
 }
 
 /* navigation */
