@@ -14,7 +14,7 @@
   --clr-button-800: linear-gradient(to top, #29408d, #243467, #243467, #243467, #29408d);
 
   --clr-buttonhover-primary: linear-gradient(to top, #e0dfdf , white, white, white, #e0dfdf);
-  --clr-buttonhover-300: linear-gradient(to top, #91CAEA, white, white, white, #91CAEA);
+  --clr-buttonhover-300: linear-gradient(to top, #91a8c0, white, white, white, #91a8c0);
   --clr-buttonhover-600: linear-gradient(to top, #578d4e70 , white, white, white, #578d4e70);
   --clr-buttonhover-800: linear-gradient(to top, #BBCEE5 , white, white, white, #BBCEE5);
 
@@ -220,7 +220,7 @@ h5 {
   }
 
   .naabackground{
-    background-image: url(./images/naacolourbox2.png);
+    background-image: url(./images/naacolourbox.png);
   
     
   }
