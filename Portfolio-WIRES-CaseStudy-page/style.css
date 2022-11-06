@@ -524,10 +524,10 @@ display: block;
   .footer-logo{ order: 1}
   .footer-nav{ order: 3}
   
-  .social-list li > *{
+  .social-list ul > *{
     display: flex;
     justify-items: center;
-    fill: #03c2f7 !important;
+    color: #02A8D6 !important;
   }
   
   .github{
@@ -590,6 +590,8 @@ a .footer-nav{
   display: flex;
   justify-content: center;
   gap: var(--size-400);
+  color: #02A8D6 !important;
+  z-index: 0;
 }
 
 .social-icon{
