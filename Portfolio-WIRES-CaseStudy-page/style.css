@@ -524,16 +524,15 @@ display: block;
   .footer-logo{ order: 1}
   .footer-nav{ order: 3}
   
-  .social-list ul > *{
+  .social-list li > *{
     display: flex;
     justify-items: center;
-    color: #02A8D6 !important;
-  }
-  
-  .github{
-    transform: translate(1rem 1rem);
   }
 
+  .fill{
+    color: var(--clr-neutral-100) !important;
+  }
+  
 
 @media (min-width: 50em) {
   
@@ -590,8 +589,6 @@ a .footer-nav{
   display: flex;
   justify-content: center;
   gap: var(--size-400);
-  color: #02A8D6 !important;
-  z-index: 0;
 }
 
 .social-icon{
